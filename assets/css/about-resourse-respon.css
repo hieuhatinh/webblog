@@ -1,0 +1,48 @@
+/* Mobile */
+@media only screen and (max-width: 46.1875em) {
+}
+
+/* Tablet*/
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+
+}
+
+/* Mobile & Tablet */
+@media (max-width: 63.9375em) {
+    .s-font-size28 {
+        font-size: 28px;
+    }
+
+    .s-font-size18 {
+        font-size: 18px;
+    }
+    .body {
+        flex-direction: column;
+    }
+
+    .text-box {
+        background-color: #fbf2ee;
+    }
+
+    .text {
+        text-align: start;
+        padding-bottom: 40px;
+    }
+
+    .text > h1 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .text > p:first-child {
+        font-size: 17px;
+    }
+
+    .background {
+        padding-bottom: 0;
+    }
+
+    .text-box.resources__margin {
+        margin-top: 0;
+    }
+}

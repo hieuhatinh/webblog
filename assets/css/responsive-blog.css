@@ -1,0 +1,38 @@
+/* Mobile */
+@media only screen and (max-width: 46.1875em) {
+    .blog .row {
+        justify-content: center;
+    }
+
+    .blog__header-sub,
+    .blog__header-btn {
+        font-size: 14px;
+    }
+
+    .blog__footer-comments {
+        display: none;
+    }
+}
+
+/* Tablet*/
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .blog__para {
+        height: 200px;
+    }
+
+    .blog__footer-comments {
+        display: none;
+    }
+}
+
+/* Mobile & Tablet */
+@media (max-width: 63.9375em) {
+
+}
+
+/* PC */
+@media only screen and (min-width: 64em) {
+    .blog__footer-comments-mb {
+        display: none;
+    }
+}

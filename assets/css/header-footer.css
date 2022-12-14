@@ -1,0 +1,316 @@
+/* header */
+#header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    background-color: var(--white-color);
+    z-index: 1;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--height-header);
+}
+
+#menu .menu__name {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+#menu .menu__name1 {
+    font-size: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: var(--text-colorD14);
+    cursor: pointer;
+}
+
+#menu .menu__text {
+    cursor: pointer;
+    color: var(--text-color41);
+}
+
+#menu .menu__nav {
+    display: flex;
+    list-style-type: none;
+}
+
+#menu .menu__subnav {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 5px;
+    color: var(--text-color41);
+}
+
+#menu .menu__nav li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#menu .menu__nav li:hover a {
+    color: var(--text-colorD14);
+}
+
+/* End: Header */
+
+
+/* Begin: Footer */
+#footer {
+    background-color: rgb(65, 65, 65);
+    color: var(--white-color);
+    margin-top: 75px;
+    padding: 65px 0;
+}
+
+#footer a {
+    color: var(--white-color);
+}
+
+#footer .contact1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.s-socials {
+    display: none;
+}
+
+#footer .socials a {
+    padding-right: 16px;
+    font-size: 24px;
+}
+
+#footer .socials a:hover {
+    color: var(--text-colorD14);
+}
+
+#footer .input-footer {
+    margin-top: 48px;
+}
+
+#footer .info-email:hover,
+#footer .copyright2:hover a {
+    color: var(--text-colorD14);
+}
+
+#footer input {
+    color: var(--white-color);
+}
+
+.button-submit {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-color41);
+    outline: 1px solid var(--white-color);
+    padding: 15px 35px;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.5ss;
+    font-size: 16px;
+    z-index: 1;
+    margin-top: 32px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.button-submit:hover {
+    color: var(--white-color);
+}
+
+.button-submit::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 150%;
+    height: 100%;
+    background-color: #6a5af9;
+    transform: scaleX(0) skewX(35deg);
+    transform-origin: left;
+    z-index: -1;
+    transition: transform 0.6s;
+}
+
+.button-submit:hover::before {
+    transform: scaleX(1.1) skewX(35deg);
+}
+
+/* End: Footer */
+
+/* Begin: Menu mobile */
+.menu_overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.menu_overlay .s-menu__nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--white-color);
+    width: 320px;
+    max-width: 100%;
+    animation: fadeIn ease .5s;
+}
+
+.menu_overlay .s-menu {
+    list-style-type: none;
+    margin-top: 46px;
+    text-align: center;
+}
+
+.s-menu li {
+    padding: 20px;
+}
+
+.s-menu__subnav {
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--text-color41);
+}
+
+.menu_overlay .menu-close {
+    position: absolute;
+    color: var(--text-colorD14);
+    top: 0;
+    right: 0;
+    display: block;
+    font-size: 35px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#header .mobile-menu-btn {
+    display: none;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    color: var(--text-colorD14);
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+/* End: Menu mobile */
+
+
+/* Mobile */
+@media only screen and (max-width: 46.1875em) {}
+
+/* Tablet*/
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    #content {
+        margin-top: 88px;
+    }
+}
+
+/* Mobile & Tablet */
+@media (max-width: 63.9375em) {
+    .s-width100 {
+        width: 100%;
+    }
+
+    .s-mt-28 {
+        margin-top: 28px;
+    }
+
+    /* header */
+    .s-header-menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 6px;
+    }
+
+    .menu_overlay.js-menu.open {
+        display: block;
+    }
+
+    /* Begin: menu */
+    #header .mobile-menu-btn {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    #menu .menu__name {
+        align-items: flex-start;
+    }
+
+    #menu .menu__nav {
+        display: none;
+    }
+
+    #menu .menu__name1 {
+        font-size: 28px;
+    }
+
+    #menu .menu__text {
+        font-size: 14px;
+    }
+
+    /* End: menu */
+
+    /* footer */
+    #footer {
+        padding: 48px 8px;
+    }
+
+    .socials {
+        display: none;
+    }
+
+    #footer .s-socials {
+        display: flex;
+        margin-bottom: 25px;
+    }
+
+    #footer .s-socials a {
+        padding-right: 25px;
+        font-size: 24px;
+        color: var(--white-color);
+    }
+
+    .s-footer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contact2-header {
+        margin-left: 0;
+    }
+
+    .contact1 {
+        /* margin-left: 8px; */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 32px;
+    }
+}
+
+/* PC */
+@media only screen and (min-width: 64em) {}

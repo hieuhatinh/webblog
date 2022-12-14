@@ -1,0 +1,335 @@
+/* content */
+#content {
+    margin-top: var(--height-header);
+    background-color: var(--white-color);
+}
+
+/* my thoughts */
+#content__my-thoughts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#content__my-thoughts .content__img1 {
+    width: 100%;
+    object-fit: cover;
+}
+
+#content__my-thoughts .content__img2 {
+    flex-direction: column;
+    display: flex;
+    margin: auto;
+}
+
+#content__my-thoughts .img2__text {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+#content__my-thoughts .my-thoughts__img2 {
+    display: block;
+    width: 100%;
+}
+
+.content__text {
+    flex-direction: column;
+}
+
+#content__my-thoughts .a2 {
+    max-width: 400px;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 28px 25px 25px;
+    color: var(--text-color41);
+}
+
+#content__my-thoughts .a2:hover {
+    color: var(--text-colorD14);
+}
+
+#content__my-thoughts .text__h3 {
+    margin-bottom: 16px;
+    font-weight: 525;
+    text-align: center;
+    font-size: 28px;
+}
+
+#content__my-thoughts .text__paragraph {
+    line-height: 1.4;
+}
+
+#content__my-thoughts .content__btn {
+    margin-top: 76px;
+}
+
+/* recent posts */
+#recent-posts {
+    margin-top: 96px;
+}
+
+.recent-heading {
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+.recent-posts-list1 {
+    display: flex;
+    /* padding: 0; */
+    margin-top: 32px;
+    border: 1px solid var(--border-color);
+}
+
+.recent-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.recent-text {
+    flex: 1;
+    opacity: 0.9;
+    padding: 30px;
+    background-color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.recent-time {
+    margin-bottom: 25px;
+}
+
+.recent-time1-year {
+    list-style-type: none;
+    display: flex;
+}
+
+.recent-time1-year li {
+    font-size: 12px;
+}
+
+.recent-content-heading a {
+    font-weight: 300px;
+    text-align: justify;
+    color: var(--text-color41);
+}
+
+.recent-content-text {
+    margin-top: 16px;
+    margin-bottom: 60px;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.solid {
+    border-top: 1px solid #ccc;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.comments-text {
+    font-size: 12px;
+    color: var(--text-color41);
+}
+
+.comments-icon {
+    align-items: center;
+    font-size: 16px;
+    display: none;
+}
+
+.comments-icon a {
+    color: var(--text-color41);
+}
+
+.comment-zero {
+    margin-left: 8px;
+    /* padding-bottom: 3px; */
+}
+
+.comment-zero:hover,
+.comments-icon:hover>a {
+    color: var(--text-colorD14);
+}
+
+/* Begin: Slogan */
+#slogan {
+    margin: 56px 0;
+    padding-bottom: 30px;
+}
+
+.slogan1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 50%;
+}
+
+.slogan1 img {
+    display: block;
+}
+
+.slogan-text {
+    flex-wrap: wrap;
+}
+
+.text-paragraph1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.blockquote {
+    text-align: center;
+    line-height: 1.4;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.text-paragraph2 {
+    text-align: center;
+}
+
+.slogan-img2 {
+    background-color: rgba(240, 213, 201, 0.3);
+    padding: 80px 0;
+}
+
+.width-img {
+    width: 65%;
+}
+
+.text-content1 {
+    margin-top: 32px;
+    font-size: 20px;
+    line-height: 1.6;
+    opacity: 0.8;
+}
+
+.text-content2 {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 1.8;
+    opacity: 0.8;
+}
+
+.slogan-text .btn {
+    margin-top: 80px;
+}
+
+/* Begin: Always Makes Me Smile */
+.always-header {
+    margin-top: 48px;
+    text-align: center;
+}
+
+.always-img {
+    margin-top: 48px;
+}
+
+.alway-img-list li {
+    margin-top: 16px;
+    width: 222px;
+    height: 215px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.always-smile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.always-smile:hover {
+    opacity: 0.5;
+}
+
+.modal-list {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    z-index: 3;
+    display: block;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: 0.25s;
+    pointer-events: none;
+}
+
+.modal-list.open {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+}
+
+.modal-close {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.modal-arrow {
+    position: fixed;
+    top: 50%;
+    cursor: pointer;
+}
+
+.modal-arrow.prev {
+    left: 20px;
+    top: calc(50% - 20px);
+}
+
+.modal-arrow.next {
+    right: 20px;
+    top: calc(50% - 20px);
+}
+
+.modal-list-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    position: absolute;
+    z-index: -1;
+}
+
+/* Conversations */
+#Conversations {
+    margin: 32px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.Conversations-header {
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.Conversations-p {
+    font-size: 20px;
+    margin-bottom: 48px;
+    margin-top: 16px;
+}

@@ -1,0 +1,224 @@
+
+/* Mobile */
+@media only screen and (max-width: 46.1875em) {
+    .s-font-28 {
+        font-size: 28px;
+    }
+
+    .s-font-16 {
+        font-size: 16px;
+    }
+
+    .s-mt-48 {
+        margin-top: 48px;
+    }
+
+    .width-85 {
+        width: 85%;
+    }
+
+    .s-padding {
+        padding: 8px;
+    }
+
+    /* content */
+    #content {
+        margin-top: 78px;
+    }
+
+    /* my thoughts */
+    #content__my-thoughts .img2__text {
+        justify-content: flex-start;
+        text-align: unset;
+    }
+
+    .recent-heading {
+        margin-bottom: 0;
+    }
+
+    .recent-content-heading > a {
+        font-size: 22px;
+    }
+
+    .comments {
+        display: none;
+    }
+
+    .comments-icon {
+        display: flex;
+    }
+
+    /* always */
+    .alway-img-list li {
+        height: 140px;
+    }
+
+    /* conversations */
+    #Conversations {
+        margin: 0;
+        padding: 8px;
+    }
+
+    .Conversations-header {
+        max-width: 90%;
+        margin: 48px auto 0;
+    }
+
+    .input-name {
+        flex-direction: column;
+    }
+
+    .modal-list-inner img {
+        width: 90%;
+    }
+}
+
+/* Tablet*/
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    #content {
+        margin-top: 88px;
+    }
+
+    .recent-posts-list1 {
+        border: unset;
+    }
+
+    .recent-img {
+        border: 1px solid var(--border-color);
+        border-bottom: unset;
+    }
+
+    .recent-text {
+        border: 1px solid var(--border-color);
+        border-top: unset;
+    }
+
+    /* .recent-posts-list1 {
+        margin-left: 5px;
+        margin-right: 5px;
+    } */
+}
+
+/* Mobile & Tablet */
+@media (max-width: 63.9375em) {
+    .s-width100 {
+        width: 100%;
+    }
+
+    .s-mt-28 {
+        margin-top: 28px;
+    }
+
+    /* header */
+    .s-header-menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 6px;
+    }
+
+    .menu_overlay.js-menu.open {
+        display: block;
+    }
+
+    /* Begin: menu */
+    #header .mobile-menu-btn {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    #menu .menu__name {
+        align-items: flex-start;
+    }
+
+    #menu .menu__nav {
+        display: none;
+    }
+
+    #menu .menu__name1 {
+        font-size: 28px;
+    }
+
+    #menu .menu__text {
+        font-size: 14px;
+    }
+    /* End: menu */
+
+    .recent-posts-list1 {
+        flex-direction: column;
+    }
+
+    /* my-thoughts */
+    #content__my-thoughts .content__img2 {
+        width: 90%;
+        margin: 48px auto 0;
+    }
+
+    .recent-content-text {
+        display: none;
+    }
+
+    /* slogan */
+    .slogan1 {
+        flex-direction: column;
+    }
+
+    .slogan-text {
+        padding: 0 16px 64px;
+    }
+
+    .text-paragraph1 {
+        width: 100%;
+    }
+
+    .text-paragraph2 {
+        text-align: none;
+    }
+
+    .s-background-slogan {
+        background-color: rgba(240, 213, 201, 0.3);
+        text-align: center;
+    }
+
+    /* footer */
+    #footer {
+        padding: 48px 8px;
+    }
+
+    .socials {
+        display: none;
+    }
+
+    #footer .s-socials {
+        display: flex;
+        margin-bottom: 25px;    
+    }
+
+    #footer .s-socials a{
+        padding-right: 25px;
+        font-size: 24px;
+        color: var(--white-color);
+    }
+
+    .s-footer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contact2-header {
+        margin-left: 0;
+    }
+
+    .contact1 {
+        /* margin-left: 8px; */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 32px;
+    }
+}
+
+
+/* PC */
+@media only screen and (min-width: 64em) {
+}

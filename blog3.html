@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/blog1.css">
+    <link rel="stylesheet" href="./assets/css/header-footer.css">
+    <link rel="stylesheet" href="./assets/css/blog1-responsive.css">
+    <script src="./assets/JS/menu.js" defer></script>
+    <script src="./assets/JS/blog1.js" defer></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="s-header-menu grid wide">
+            <!-- Menu -->
+            <div id="menu">
+                <a href="./web.html" class="menu__name">
+                    <h1 class="menu__name1">Inner Pieces</h1>
+                    <p class="menu__text">Thoughts on Lifestyle & Mental Health</p>
+                </a>
+
+                <!-- menu pc -->
+                <ul class="menu__nav">
+                    <li><a href="./web.html" target="_parent" class="menu__subnav">Home</a></li>
+                    <li><a href="./blog.html" target="_parent" class="menu__subnav">Blog</a></li>
+                    <li><a href="./about.html" class="menu__subnav">About</a></li>
+                    <li><a href="./resources.html" class="menu__subnav">Resources</a></li>
+                    <li><a href="./web.html" target="_self" class="menu__subnav">Contact</a></li>
+                    <li><a href="./login.html" class="menu__subnav">Log in</a></li>
+                    <li><a href="./signup.html" class="menu__subnav">Sign up</a></li>
+                </ul>
+
+                <!-- menu mobile & tablet -->
+                <div class="menu_overlay js-menu">
+                    <div class="s-menu__nav">
+                        <div class="menu-close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <ul class="s-menu">
+                            <li><a href="./web.html" target="_parent" class="s-menu__subnav">Home</a></li>
+                            <li><a href="./blog.html" target="_parent" class="s-menu__subnav">Blog</a></li>
+                            <li><a href="./about.html" class="s-menu__subnav">About</a></li>
+                            <li><a href="./resources.html" class="s-menu__subnav">Resources</a></li>
+                            <li><a href="#footer" class="s-menu__subnav">Contact</a></li>
+                            <li><a href="./login.html" class="s-menu__subnav">Log in</a></li>
+                            <li><a href="./signup.html" class="s-menu__subnav">Sign up</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile-menu-btn js-mobile-btn">
+                <i class="menu-icon fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog -->
+    <div class="blog">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-9 l-o-1-5 m-12 c-11 c-o-0-5">
+                    <div class="blog__header-sub">
+                        <a href="" class="blog__header-p1">All Posts</a>
+                        <p style="color: var(--text-colorD14);">
+                            <a href="./login.html" class="blog__header-btn">Log in</a> /
+                            <a href="./signup.html" class="blog__header-btn">Sign up</a>
+                        </p>
+                    </div>
+
+                    <div class="blog__body">
+                        <div class="row">
+                            <div class="col l-10 l-o-1 m-10 m-o-1 c-11 c-o-0-5">
+                                <div class="blog__text-user">
+                                    <div class="blog__text-user--block">
+                                        <img src="./assets/img/blog/user.png" alt="" class="blog__user-img">
+                                        <ul class="blog__user-time">
+                                            <li class="blog__user-name">Admin</li>
+                                            <li class="dot">.</li>
+                                            <ul class="blog__user-time-block">
+                                                <li class="year"><span>Dec 9, 2021</span></li>
+                                                <li class="dot">.</li>
+                                                <li class="time">2 min read</li>
+                                            </ul>
+                                        </ul>
+                                    </div>
+                                    <div class="dot-more">
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                                        <div class="share js-demo-btn hide">
+                                            <i class="share-icon fa-solid fa-share"></i>
+                                            <span>Share Post</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="blog__paragraph">
+                                    <h1 class="blog__paragraph-title s-font-size26">
+                                        How I stopped being afraid of being weak
+                                    </h1>
+                                    <h3 class="blog__paragraph-guide">
+                                        Create a blog post subtitle that summarizes your post in a few short, punchy
+                                        sentences and entices your audience to continue reading.
+                                    </h3>
+                                    <img src="./assets/img/blog1/anh3.png" alt="" class="blog__paragraph-img">
+                                    <p class="blog__paragraph-text">
+                                        Welcome to your blog post. Use this space to connect with your readers and
+                                        potential customers in a way that's current and interesting. Think of it as an
+                                        ongoing conversation where you can share updates about business, trends, news,
+                                        and more.
+                                    </p>
+                                    <h3 class="blog__paragraph-guide">
+                                        Design with Ease
+                                    </h3>
+                                    <blockquote class="blog__paragraph-note">
+                                        <i>Do you have a design in mind for your blog? Whether you prefer a trendy
+                                            postcard look or you're going for a more editorial style blog - there's a
+                                            stunning layout for everyone.</i>
+                                    </blockquote>
+                                    <p class="blog__paragraph-text">
+                                        Every layout comes with the latest social features built in. Readers will be
+                                        able to easily share posts on social networks like Facebook and Twitter, view
+                                        how many people have liked a post, made comments and more. With the Wix,
+                                        building your online community has never been easier.
+                                    </p>
+                                    <h3 class="blog__paragraph-guide">
+                                        Create Relevant Content
+                                    </h3>
+                                    <p class="blog__paragraph-text">
+                                        You'll be posting loads of engaging content, so be sure to keep your blog
+                                        organized with Categories that also allow readers to explore more of what
+                                        interests them. Each category of your blog has its own page that's fully
+                                        customizable. Add a catchy title, a brief description and a beautiful image to
+                                        the category page header to truly make it your own. You can also add tags (<a
+                                            href="#" class="blog__paragraph-link">#vacation</a> <a href="#"
+                                            class="blog__paragraph-link">#dream</a> <a href="#"
+                                            class="blog__paragraph-link">#summer</a>) throughout your posts to reach
+                                        more people, and help readers search for relevant content. Using hashtags can
+                                        expand your post reach and help people find the content that matters to them. Go
+                                        ahead, <a href="#" class="blog__paragraph-link">#hashtag</a> away.
+                                    </p>
+                                    <h3 class="blog__paragraph-guide">
+                                        Stun Your Readers
+                                    </h3>
+                                    <blockquote class="blog__paragraph-note"><i>
+                                            Be original, show off your style, and tell your story.
+                                        </i></blockquote>
+                                    <p class="blog__paragraph-text">
+                                        Blogging gives your site a voice, so let your business' personality shine
+                                        through. Are you a creative agency? Go wild with original blog posts about
+                                        recent projects, cool inspirational ideas, or what your company culture is like.
+                                        Add images, and videos to really spice it up, and pepper it with slang to keep
+                                        readers interested. Are you a programmer? Stay on the more technical side by
+                                        offering weekly tips, tricks, and hacks that show off your knowledge of the
+                                        industry. No matter what type of business you have, one thing is for sure -
+                                        blogging gives your business the opportunity to be heard in a way in a different
+                                        and unconventional way.
+                                    </p>
+                                    <h3 class="blog__paragraph-guide">
+                                        Get Inspired
+                                    </h3>
+                                    <p class="blog__paragraph-text">
+                                        To keep up with all things Wix, including website building tips and interesting
+                                        articles, head over to to the Wix Blog. You may even find yourself inspired to
+                                        start crafting your own blog, adding unique content, and stunning images and
+                                        videos. Start creating your own blog now. Good luck!
+                                    </p>
+                                </div>
+                                <ul class="blog__socials">
+                                    <li class="blog__socials-item">
+                                        <a href="#" class="blog__socials-link">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="blog__socials-item">
+                                        <a href="#" class="blog__socials-link">
+                                            <i class="fa-brands fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="blog__socials-item">
+                                        <a href="#" class="blog__socials-link">
+                                            <i class="fa-brands fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                    <li class="blog__socials-item">
+                                        <span class="blog__socials-link">
+                                            <i class="js-link fa-solid fa-link"></i>
+                                        </span>
+                                    </li>
+                                </ul>
+                                <div class="blog__footer">
+                                    <p class="blog__footer-comments">0 views</p>
+                                    <!-- mobile & tablet-comment -->
+                                    <div class="blog__footer-comments-mb">
+                                        0 <i class="fa-regular fa-eye"></i>
+                                    </div>
+                                    <p class="blog__footer-heart">47 <i class="fa-regular fa-heart heart"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__name">
+                        <h3 class="blog__name-h3">Recent Posts</h3>
+                        <a href="./blog.html" class="blog__name-link">See All</a>
+                    </div>
+                    <div class="row blog__link--scroll">
+                        <div class="col l-4 m-4 c-10 c-o-0-5">
+                            <div class="blog__link">
+                                <a href="">
+                                    <img src="./assets/img/blog1/anh2.png" alt="" class="blog__link-img">
+                                </a>
+                                <div class="blog__link-text">
+                                    <a href="" class="blog__link-header text-overflow">Can't stop scrolling through your
+                                        friends' feed?</a>
+                                </div>
+                                <div class="blog__footer">
+                                    <div class="blog__footer-comments">
+                                        0 <i class="fa-regular fa-eye"></i>
+                                    </div>
+                                    <p class="blog__footer-heart">47 <i class="fa-regular fa-heart heart"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-10 c-o-0-5">
+                            <div class="blog__link">
+                                <a href="">
+                                    <img src="./assets/img/blog1/anh3.png" alt="" class="blog__link-img">
+                                </a>
+                                <div class="blog__link-text">
+                                    <a href="" class="blog__link-header text-overflow">How I stopped being afraid of
+                                        being weak</a>
+                                </div>
+                                <div class="blog__footer">
+                                    <div class="blog__footer-comments">
+                                        0 <i class="fa-regular fa-eye"></i>
+                                    </div>
+                                    <p class="blog__footer-heart">47 <i class="fa-regular fa-heart heart"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-10 c-o-0-5">
+                            <div class="blog__link">
+                                <a href="">
+                                    <img src="./assets/img/blog1/anh4.png" alt="" class="blog__link-img">
+                                </a>
+                                <div class="blog__link-text">
+                                    <a href="" class="blog__link-header text-overflow">5 great side effects of running
+                                        with music</a>
+                                </div>
+                                <div class="blog__footer">
+                                    <div class="blog__footer-comments">
+                                        0 <i class="fa-regular fa-eye"></i>
+                                    </div>
+                                    <p class="blog__footer-heart">47 <i class="fa-regular fa-heart heart"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog__comments">
+                        <div class="row">
+                            <div class="col l-10 l-o-1 m-10 m-o-1 c-12">
+                                <h2 class="blog__comments-header">Comments</h2>
+                                <div class="blog__comments-body">
+                                    <img src="./assets/img/blog/user.png" alt="" class="blog__user-img">
+                                    <form action="" class="blog__comments-form">
+                                        <input type="text" class="blog__comments-input" id="blog__comments-input"
+                                            placeholder="Write a comment...">
+                                        <div class="comments__demo">
+                                            <div class="comments__demo-block">
+                                                <div class="comments__demo-item">
+                                                    <label for="" class="comments__options-label">
+                                                        <i class="comments__demo-icon fa-regular fa-face-smile"></i>
+                                                        <span>Add an emoji</span>
+                                                    </label>
+                                                </div>
+                                                <div class="comments__demo-item">
+                                                    <label for="image" class="comments__options-label">
+                                                        <i class="comments__demo-icon fa-solid fa-camera"></i>
+                                                        <span>Add an image</span>
+                                                    </label>
+                                                    <input type="file" id="image" hidden>
+                                                </div>
+                                                <div class="comments__demo-item">
+                                                    <label for="video" class="comments__options-label">
+                                                        <i class="comments__demo-icon fa-solid fa-video"></i>
+                                                        <span>Add a video</span>
+                                                    </label>
+                                                    <input type="file" hidden id="video">
+                                                </div>
+                                            </div>
+                                            <!-- mobile -->
+                                            <div class="comments__block-mb">
+                                                <div class="comment__add">
+                                                    <i class="comment__add-icon fa-solid fa-plus"></i>
+                                                </div>
+                                            </div>
+                                            <div class="comment__add-open hide">
+                                                <p class="comments__mb-text">Add to Your Comment</p>
+                                                <div class="comments__options">
+                                                    <div class="comments__options-item">
+                                                        <label for="" class="comments__options-label-mb">
+                                                            <i
+                                                                class="comments__demo-icon-mb fa-regular fa-face-smile"></i>
+                                                            <span>Emoji</span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="comments__options-item">
+                                                        <label for="image" class="comments__options-label-mb">
+                                                            <i class="comments__demo-icon-mb fa-solid fa-camera"></i>
+                                                            <span>Image</span>
+                                                        </label>
+                                                        <input type="file" id="image" hidden>
+                                                    </div>
+                                                    <div class="comments__options-item">
+                                                        <label for="video" class="comments__options-label-mb">
+                                                            <i class="comments__demo-icon-mb fa-solid fa-video"></i>
+                                                            <span>Video</span>
+                                                        </label>
+                                                        <input type="file" hidden id="video">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="demo__btn demo__btn-comments">
+                                                <button class="btn__modal-comments btn__modal js-close">Cancel</button>
+                                                <button
+                                                    class="btn__modal-comments btn__modal btn__modal--modifier btn--disabled ">Publish</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Begin: Footer -->
+    <div id="footer">
+        <div class="grid wide">
+            <div class="s-footer row">
+                <div class="col l-6 m-12 c-12 contact1">
+                    <div class="socials">
+                        <a href="" class="text-decoration"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="" class="text-decoration"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="" class="text-decoration"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="contact-info mt-16">
+                        <h4 class="contact-info-header font-size28">Inner Pieces</h4>
+                        <p class="info-number mt-16">123-456-7890</p>
+                        <p class="mt-8"><a href="" class="info-email s-padding">info@mysite.com</a></p>
+                    </div>
+                    <div class="contact-copyright mt-16">
+                        <p class="copyright1">© 2023 by Inner Pieces.</p>
+                        <p class="copyright2 mt-8">Proudly created with <a href="" class="s-padding">Wix.com</a></p>
+                    </div>
+                </div>
+                <div class="col l-6 m-12 c-12 contact2">
+                    <div class="row">
+                        <div class="col l-12 m-12 c-12 s-socials">
+                            <a href="" class="text-decoration"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="" class="text-decoration"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="" class="text-decoration"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="col l-12 m-12 c-12 contact2-header">
+                            <h4 class="contact2-h3 font-size28">Contact</h4>
+                            <p class="contact2-p mt-8">Ask me anything</p>
+                        </div>
+                        <form action="" class="col l-12 m-12 c-12 mt-48">
+                            <div class="row">
+                                <div class="col l-6 m-12 c-12 form-group">
+                                    <label for="fname">FullName</label>
+                                    <input type="text" id="fname" required class="input-text1 col-full">
+                                </div>
+                                <div class="col l-6 m-12 c-12 s-mt-28 form-group">
+                                    <label for="lname">Email *</label>
+                                    <input type="text" id="lname" class="input-text1 col-full">
+                                </div>
+                                <div class="col l-12 m-12 c-12 mt-48 s-mt-28 form-group">
+                                    <label for="email">Leave Us a Message...</label>
+                                    <input type="email" id="email" required class="input-text1 col-full">
+                                </div>
+                                <div class="col l-12 m-12 c-12" style="display: flex; justify-content: center;">
+                                    <label for="submit" class="button-submit">
+                                        <input type="submit" value="Submit" id="submit" class="btn-subscribe">
+                                    </label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Demo Mode -->
+    <div class="demo__overlay js-share hide" id="Login">
+        <i class="demo__close js-close fa-solid fa-xmark "></i>
+        <div class="demo__login">
+            <div class="text__header">
+                <i class="fa-solid fa-user-group"></i>
+                <h5 class="text__h5">Demo Mode</h5>
+            </div>
+            <div class="text__p">To make this blog yours, start editing this template.</div>
+            <div class="demo__btn">
+                <button class="btn__modal js-close">Close</button>
+                <button class="btn__modal btn__modal--modifier">Got It</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Share Post -->
+    <div class="demo__overlay hide" id="share-post">
+        <i class="demo__close js-close fa-solid fa-xmark"></i>
+        <div class="demo__share demo__share--center">
+            <h4 class="demo__share-name">Share Post</h4>
+            <div class="demo__share-icon">
+                <i class="demo__icon-item fa-brands fa-facebook"></i>
+                <i class="demo__icon-item fa-brands fa-twitter"></i>
+                <i class="demo__icon-item fa-brands fa-linkedin"></i>
+                <i class="demo__icon-item js-link fa-solid fa-link"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Share Link -->
+    <div class="demo__overlay js-share hide" id="link-overlay">
+        <i class="demo__close js-close fa-solid fa-xmark"></i>
+        <div class="demo__share" id="get-link">
+            <div class="demo__share-head">
+                <i class="fa-solid fa-link"></i>
+                <h4 class="demo__share-name">Share Link</h4>
+            </div>
+            <input type="text" class="demo__share-input" value="">
+            <div class="demo__btn">
+                <button class="btn__modal js-close">Cancel</button>
+                <button class="btn__modal btn__modal--modifier">Copy Link</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

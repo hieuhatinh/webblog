@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-validate {
+    margin-top: calc(var(--height-header) + 75px);
+    display: flex;
+    justify-content: center;
+
+}
+
+#form {
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 5px #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    min-width: 350px;
+}
+
+#form .heading {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#form .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-group+.form-group {
+    margin-top: 10px;
+}
+
+#form .form-group label {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#form .form-group input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+#form .form-group input:focus {
+    border-color: var(--blue-color);
+    box-shadow: 0 0 2px var(--blue-color);
+}
+
+#form .form-group .check-box {
+    display: flex;
+    align-items: center;
+}
+
+#form .form-group .check-box input {
+    width: unset;
+    margin-right: 5px;
+    font-size: 10px;
+}
+
+#form .form-group .check-box span {
+    font-size: 14px;
+}
+
+#form .form-message {
+    margin-top: 3px;
+}
+
+#form .form-group.error .form-message {
+    color: rgb(252, 77, 77);
+}
+
+#form .form-group.error input {
+    border-color: rgb(252, 77, 77);
+}
+
+#form .form-group.error input:focus {
+    border-color: rgb(252, 77, 77);
+    box-shadow: 0 0 2px rgb(252, 77, 77);
+}
+
+#form .submit {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: var(--blue-color);
+    border-radius: 10px;
+    color: var(--white-color);
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#form .signup__google {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--blue-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#form .logo-google {
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+}
+
+#form .link__form {
+    display: flex;
+    align-items: center;
+}
+
+#form .link__form span {
+    font-size: 14px;
+}
+
+#form .line {
+    border: 1px solid rgb(230, 230, 230);
+    margin: 20px 0;
+}
+
+#form .link {
+    color: var(--blue-color);
+    text-decoration: none;
+}
+
+#form .link:hover {
+    text-decoration: underline;
+}
+
+#form .forgot-password {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+/* Mobile */
+@media only screen and (max-width: 46.1875em) {
+    #form {
+        width: 250px;
+    }
+}
